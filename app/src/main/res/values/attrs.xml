@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="voiceView">
+        <!--曲线的颜色-->
+        <attr name="voiceLine" format="color" />
+        <!--曲线的横向移动速度-->
+        <attr name="lineSpeed" format="integer" />
+        <!--输入音量的最大值-->
+        <attr name="maxVolume" format="float" />
+        <attr name="sensibility">
+            <enum name="one" value="1" />
+            <enum name="two" value="2" />
+            <enum name="three" value="3" />
+            <enum name="four" value="4" />
+            <enum name="five" value="5" />
+        </attr>
+        <!--曲线每几个像素绘制一次-->
+        <attr name="fineness">
+            <enum name="one" value="1" />
+            <enum name="two" value="2" />
+            <enum name="three" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>
